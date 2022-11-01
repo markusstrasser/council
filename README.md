@@ -42,6 +42,14 @@ If "neural network" comes up, we know when the expert's stance or mentioning of 
 
 ## What Could Be Done In The Future 
 
+**Library expansion**
+Our data pipeline is constructed with monologues from these speakers in order to simplify the labeling process.
+
+Data pipeline expansion. 
+In order to get more content from 
+
+The library could be greatly expanded to the experts takes from published text data, and from audio where there are multiple speaker sources. We'd also be able to add more content with the ability to input specified splices of audio (eg: instances where a speaker is talking for 45 minutes straight in a 3 hour video).
+
 1. Expand database to more content from multiple platforms and appearances of each expert, and adding more experts. 
 
 This requires **speaker segmentation** on the raw audio file, labeling the expert, and capturing the relevant meta data from the audio source. 
