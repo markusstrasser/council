@@ -21,8 +21,10 @@ We want to know what Person _x_ would say about _y_ or how they might answer que
 
 ## Features:
 
-**1. Most Relevant Content from an Expert on Prompt's Subject Matter.
-Match as close 
+**1. Return the Most Relevant Content from an Expert on Prompt's Subject Matter**
+
+Match our database to the prompt inputs as closely as possible. return the object in our dictionary with the person, the material or content of what they mention, and relevant meta data such as the date they said it and link to the original source. 
+
 **2. Evolution on prompt's subject matter** 
 Metadata from YouTube link (original audio source) to get the upload date. 
 
