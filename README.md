@@ -8,15 +8,15 @@ We want to know what Person _x_ would say about _y_ or how they might answer que
 
 ### Technologies Used
 
-Pytube - Audio file extraction from YouTube playlists of experts talking about a subject (current MVP is specific to topics of AI). 
-Whisper - Transcription of audio
-Haystack - Synthesis for modeling a representation of an 
-Streamlit - front end web app deployment
+[Pytube](https://pytube.io/en/latest/) - Audio file extraction from YouTube playlists of experts talking about a subject (current MVP is specific to topics of AI)<br>
+[Whisper](https://huggingface.co/docs/transformers/model_doc/whisper) - Transcription of audio<br>
+Haystack [FARMReader](https://docs.haystack.deepset.ai/reference/reader-api) - Synthesis for modeling a representation of an expert<br>
+[Streamlit](https://streamlit.io/) - front end web app deployment
 
 ## User Flow
 
 1. prompt user
-> "What is the most important part about neural networks" 
+> "What is self-supervised learning" 
 2. The model would find what the expert would reply to this. 
 4. The model returns what it finds as the best answer, and the original source of the data.  
 
