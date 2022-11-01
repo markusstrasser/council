@@ -4,6 +4,15 @@
 
 We want to know what Person _x_ would say about _y_ or how they might answer question _z_
 
+## Project Description
+
+### Technologies Used
+
+Pytube - Audio file extraction from YouTube playlists of experts talking about a subject (current MVP is specific to topics of AI). 
+Whisper - Transcription of audio
+Haystack - Synthesis for modeling a representation of an 
+Streamlit - front end web app deployment
+
 ## User Flow
 
 1. prompt user
