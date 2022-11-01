@@ -1,6 +1,6 @@
-# council
+# Expert Council Bot
 
-## Project Motivation
+## Project Motivations
 
 We want to know what Person _x_ would say about _y_ or how they might answer question _z_
 
@@ -19,7 +19,9 @@ Label the objects in our corpus
 
 ## Features:
 
-**Evolution on subject matter** 
+**1. Most Relevant Content from an Expert on Prompt's Subject Matter.
+
+**2. Evolution on prompt's subject matter** 
 Metadata from YouTube link (original audio source) to get the upload date. 
 
 If "neural network" comes up, we know when the expert's stance or mentioning of this 
