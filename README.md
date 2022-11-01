@@ -48,9 +48,8 @@ This requires **speaker segmentation** on the raw audio file, labeling the exper
 Building out a pipeline from other audio/video sources than just YouTube monologues.
 
 2. Database building feature to add to the model:<br> 
-i. Passing in audio start and end times.<br> 
-ii. Pass in audio start and end time along with URL<br>
-iii. Trim audio from URL to start and end times<br>
+i. Pass in audio start and end time along with URL<br>
+ii. Trim audio from URL to start and end times<br>
 
 
 ## Libraries Used
