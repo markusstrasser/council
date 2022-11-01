@@ -20,15 +20,13 @@ Haystack [Pipelines API](https://docs.haystack.deepset.ai/reference/pipelines-ap
 1. Prompt user
 > "What is self-supervised learning" 
 2. The model would find what the expert would reply to this. 
-4. The model returns what it finds as the best answer, and the original source of the data.  
+3. The model returns what it finds as the best answer, based on what the expert has said in the past.
 
 ## Constructing an "Expert" Council Member
 1. Get raw audio content of a monologue of our target person speaking, correctly labeled. 
 2. Label the objects in a dictionary with that speaker. 
 3. Pass the audio to extract a whisper object
 4. Populate a dictionary with metadata, the transcript file, and the audio/link to source of data
-
-
 
 ## Features:
 
