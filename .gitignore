@@ -8,6 +8,10 @@ __pycache__/
 
 faiss_document_store.db
 
+#local mp3 files
+/mp3
+mp3 
+
 # Distribution / packaging
 .Python
 build/
