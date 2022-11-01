@@ -3,9 +3,9 @@ import streamlit as st
 import sys
 import pathlib
 
-sys.path.append(str(pathlib.Path().absolute()).split("/src")[0])
+# sys.path.append(str(pathlib.Path().absolute()).split("/src")[0] ")
 
-print(sys.path)
+# print(sys.path)
 import datetime
 import subprocess
 import torch
@@ -14,9 +14,8 @@ import pandas as pd
 import whisper
 
 
-from haystack.retriever.dense import EmbeddingRetriever
-from haystack.document_stores import ElasticsearchDocumentStore, InMemoryDocumentStore
-from haystack.nodes import FARMReader
+from haystack.nodes import EmbeddingRetriever, FARMReader
+from haystack.document_stores import ElasticsearchDocumentStore, InMemoryDocumentStore 
 from haystack.pipelines import ExtractiveQAPipeline
 
 @st.cache(allow_output_mutation=True)
