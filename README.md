@@ -47,9 +47,10 @@ If "neural network" comes up, we know when the expert's stance or mentioning of 
 This requires **speaker segmentation** on the raw audio file, labeling the expert, and capturing the relevant meta data from the audio source. 
 Building out a pipeline from other audio/video sources than just YouTube monologues.
 
-2. Database building feature to add to the model: Passing in audio start and end times. 
-i. Pass in audio start and end time along with URL
-ii. Trim audio from URL to start and end times
+2. Database building feature to add to the model:<br> 
+i. Passing in audio start and end times.<br> 
+ii. Pass in audio start and end time along with URL<br>
+iii. Trim audio from URL to start and end times<br>
 
 
 ## Libraries Used
