@@ -22,7 +22,7 @@ We want to know what Person _x_ would say about _y_ or how they might answer que
 ## Features:
 
 **1. Most Relevant Content from an Expert on Prompt's Subject Matter.
-
+Match as close 
 **2. Evolution on prompt's subject matter** 
 Metadata from YouTube link (original audio source) to get the upload date. 
 
@@ -35,3 +35,7 @@ If "neural network" comes up, we know when the expert's stance or mentioning of 
 
 This requires **speaker segmentation** on the raw audio file, labeling the expert, and capturing the relevant meta data from the audio source. 
 Building out a pipeline from other audio/video sources than just YouTube monologues.
+
+2. Database building feature to add to the model: Passing in audio start and end times. 
+i. Pass in audio start and end time along with URL
+ii. Trim audio from URL to start and end times
