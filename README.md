@@ -41,3 +41,9 @@ Building out a pipeline from other audio/video sources than just YouTube monolog
 2. Database building feature to add to the model: Passing in audio start and end times. 
 i. Pass in audio start and end time along with URL
 ii. Trim audio from URL to start and end times
+
+
+## Libraries Used
+[pytube](https://pytube.io/en/latest/index.html)
+[whisper](https://github.com/openai/whisper)
+
