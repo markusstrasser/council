@@ -29,7 +29,7 @@ If "neural network" comes up, we know when the expert's stance or mentioning of 
 
 ## What Could Be Done In The Future 
 
-1. Lots more data from the 
-2. There is a lot more data captured 
+1. Expand database to more content from multiple platforms and appearances of each expert, and adding more experts. 
 
 This requires **speaker segmentation** on the raw audio file, labeling the expert, and capturing the relevant meta data from the audio source. 
+Building out a pipeline from other audio/video sources than just YouTube monologues.
