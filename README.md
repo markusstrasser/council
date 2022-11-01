@@ -1,5 +1,7 @@
 # Expert Council Bot
 
+[Link to Live Web App](INSERT LINK HERE)
+
 ## Project Motivations
 
 We want to know what Person _x_ would say about _y_ or how they might answer question _z_
@@ -10,12 +12,12 @@ We want to know what Person _x_ would say about _y_ or how they might answer que
 
 [Pytube](https://pytube.io/en/latest/) - Audio file extraction from YouTube playlists of experts talking about a subject (current MVP is specific to topics of AI)<br>
 [Whisper](https://huggingface.co/docs/transformers/model_doc/whisper) - Transcription of audio<br>
-Haystack [FARMReader](https://docs.haystack.deepset.ai/reference/reader-api) - Synthesis for modeling a representation of an expert<br>
+Haystack [Pipelines API](https://docs.haystack.deepset.ai/reference/pipelines-api) and [ReaderAPI](https://docs.haystack.deepset.ai/reference/reader-api) - Synthesis for modeling a representation of an expert<br>
 [Streamlit](https://streamlit.io/) - front end web app deployment
 
 ## User Flow
 
-1. prompt user
+1. Prompt user
 > "What is self-supervised learning" 
 2. The model would find what the expert would reply to this. 
 4. The model returns what it finds as the best answer, and the original source of the data.  
