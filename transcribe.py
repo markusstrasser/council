@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 from haystack.retriever.dense import EmbeddingRetriever
-from haystack.document_stores import ElasticsearchDocumentStore
+from haystack.document_stores import ElasticsearchDocumentStore, InMemoryDocumentStore
 from haystack.nodes import FARMReader
 from haystack.pipelines import ExtractiveQAPipeline
 
@@ -15,8 +15,11 @@ from haystack.pipelines import ExtractiveQAPipeline
 df = pd.read_json("example_whisper_transcript")
 print(df)
 ds = df.to_dict("records")
-document_store = ElasticsearchDocumentStore(similarity="cosine",
-                                            embedding_dim=384)
+
+document_store = InMemoryDocumentStore(embedding_dim=384, similarity="cosine")
+
+# document_store = ElasticsearchDocumentStore(similarity="cosine",
+#                                             embedding_dim=384)
 
 dicts = [{"content": d["text"], "meta": {i:d[i] for i in d if i!='text'}} for d in ds]
 
