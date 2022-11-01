@@ -12,8 +12,10 @@ We want to know what Person _x_ would say about _y_ or how they might answer que
 4. The model returns what it finds as the best answer, and the original source of the data.  
 
 ## Constructing an "Expert" Council Member
-Get raw audio content of the person speaking, correctly labeled. 
-Label the objects in our corpus 
+1. Get raw audio content of a monologue of our target person speaking, correctly labeled. 
+2. Label the objects in a dictionary with that speaker. 
+3. Pass the audio to extract a whisper object
+4. Populate a dictionary with metadata, the transcript file, and the audio/link to source of data
 
 
 
