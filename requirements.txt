@@ -6,4 +6,7 @@ farm-haystack[all]
 sentence-transformers
 pandas
 numpy
+pyannote.audio
+pytube
+pydub
 jupyter
