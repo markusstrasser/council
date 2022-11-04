@@ -60,8 +60,3 @@ i. Pass in audio start and end time along with URL<br>
 ii. Trim audio from URL to start and end times<br>
 
 
-## Libraries Used
-[pytube](https://pytube.io/en/latest/index.html)
-
-[whisper](https://github.com/openai/whisper)
-
